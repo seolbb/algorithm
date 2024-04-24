@@ -14,7 +14,6 @@ class Solution {
                 }
             }
         }
-        System.out.println("right : " + right);
 
         // 0 의 갯수
         for(int a : lottos){
@@ -22,7 +21,6 @@ class Solution {
                 zero++;
             }
         }
-        System.out.println(zero);
 
         // 0이 다 맞을 경우
         int max = rankingCheck(right + zero);
